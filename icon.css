@@ -1,0 +1,283 @@
+/* -------- CORES DO NICK -------------- */
+
+/* Carol */
+
+#chat [data-cid^="38741985-"] span.un.clickable,
+#user-lists .list.room .id-38741985 .name,
+#user-lists .list.room .is-staff.id-38741985 .name,
+#user-lists .list.room .is-dj.id-38741985 .name,
+#user-lists .list.room .is-subscriber.id-38741985 .name,
+#user-lists .list.room [class*='role'].id-38741985 .name,
+#chat .msg .text .id-38741985,
+#chat .msg .text .name.id-38741985,
+#chat .msg .text .name.id-38741985 .name,
+#user-rollover.id-38741985 .username {
+background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #000000), color-stop(0.15, #FFFF00), color-stop(0.3, #000000), color-stop(0.45, #FFFF00), color-stop(0.6, #000000),color-stop(0.75, #FFFF00), color-stop(0.9, #000000), color-stop(1, #FFFF00) );
+background-image: gradient( linear, left top, right top, color-stop(0, #000000), color-stop(0.15, #FFFF00), color-stop(0.3, #000000), color-stop(0.45, #FFFF00), color-stop(0.6, #000000),color-stop(0.75, #FFFF00), color-stop(0.9, #FFFF00), color-stop(1, #FFFF00) );
+color:transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+               /* Caique */
+#chat [data-cid^="3409101-"] span.un.clickable,
+#user-lists .list.room .id-3409101 .name,
+#user-lists .list.room .is-staff.id-3409101 .name,
+#user-lists .list.room .is-dj.id-3409101 .name,
+#user-lists .list.room .is-subscriber.id-3409101 .name,
+#user-lists .list.room [class*='role'].id-3409101 .name,
+#chat .msg .text .id-3409101,
+#chat .msg .text .name.id-3409101,
+#chat .msg .text .name.id-3409101 .name,
+#user-rollover.id-3409101 .username {
+background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #AC76FF), color-stop(0.15, #AC76FF), color-stop(0.3, #AC76FF), color-stop(0.45, #90AD2F), color-stop(0.6, #90AD2F),color-stop(0.75, #90AD2F), color-stop(0.9, #90AD2F), color-stop(1, #90AD2F) );
+background-image: gradient( linear, left top, right top, color-stop(0, #AC76FF), color-stop(0.15, #AC76FF), color-stop(0.3, #AC76FF), color-stop(0.45, #90AD2F), color-stop(0.6, #90AD2F),color-stop(0.75, #90AD2F), color-stop(0.9, #90AD2F), color-stop(1, #90AD2F) );
+color:transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+/* Menina Veneno */ 
+[data-cid^="21755082-"] .badge-box .bdg,
+#user-rollover.id-21755082 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://i.pinimg.com/originals/8f/8a/ee/8f8aee0a05db670174f95d46437d0b84.jpg");
+}
+
+/* Caique */ 
+[data-cid^="3409101-"] .badge-box .bdg,
+#user-rollover.id-23246837 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://i.pinimg.com/originals/88/d4/2b/88d42b68f630660f4b7e90b38a6b6755.jpg");
+}
+
+/* Mari */
+[data-cid^="33288706-"] .badge-box .bdg,
+#user-rollover.id-38741985 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://data.whicdn.com/images/163434347/large.jpg");
+
+}
+/* Caique/2 */
+#user-rollover.id-3409101:before{
+    content: 'My Idolish';
+    top: 95px;
+    left: 193px;
+    position: absolute;
+    display: inline-block; 
+    padding: 0 5px;
+    color: #f78fd4;
+    background: linear-gradient(rgba(0, 102, 102, 0.2), rgba(0, 102, 102, 0.2));
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+/* !Special Menina Veneno */
+[data-cid^="21755082-"] .badge-box .bdg,
+#user-rollover.id-21755082 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://i.pinimg.com/originals/8f/8a/ee/8f8aee0a05db670174f95d46437d0b84.jpg");
+}	
+/* Caique/3 */
+[data-cid^="3409101"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left:21px;
+    background-image: url('https://i.pinimg.com/originals/88/d4/2b/88d42b68f630660f4b7e90b38a6b6755.jpg');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 15px auto;
+}    
+/* Mari/3 */
+[data-cid^="33288706-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left:21px;
+    background-image: url('https://data.whicdn.com/images/163434347/large.jpg');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 15px auto;
+}    
+/*  */
+[data-cid^="-"] .badge-box .bdg,
+#user-rollover.id- .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://78.media.tumblr.com/tumblr_m653f4N0bY1qg132w.gif");
+}
+	
+/* Background Users */
+.cm.message.deletable.id-21755082::before,
+.cm.message.id-21755082::before {
+	background-image: url(https://t3.ftcdn.net/jpg/00/90/56/40/500_F_90564038_zxQCvpTMvgLcNWG281RRotEiu3Qgj9jZ.jpg);	/* !Special Menina Veneno BACKGROUND */
+	background-repeat: no-repeat;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+	z-index: -1;
+	background-position-y: -10px;
+	background-position-x: right;
+}
+
+.cm.message.deletable.id-33288706::before,
+.cm.message.id-33288706::before {
+	background-image: url(https://wallpaperstudio10.com/wallpaper-download-180947-1680x1050.jpg);	/* Carol BACKGROUND */
+	background-repeat: no-repeat;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150%;
+	height: 100%;
+	opacity: .2;
+	z-index: -1;
+	background-position-y: -50px;
+	background-position-x: right;
+}
+
+.cm.message.deletable.id-3409101::before,
+.cm.message.id-3409101::before {
+	background-image: url(https://static.tumblr.com/c31e908b6b5cca01b62722b4cac9e6cf/lry3zo0/bDznn1bgp/tumblr_static_tumblr_static_filename_640.jpg);	/* Lolla BACKGROUND */
+	background-repeat: no-repeat;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+	z-index: -1;
+	background-position-y: -10px;
+	background-position-x: right;
+}
+
+#chat [data-cid^="21755082-"] .from {
+	background: linear-gradient(to right, rgba(0, 0, 0,.12), transparent);
+	padding: 7px;
+	border-radius: 15px;
+}
+#chat [data-cid^="3409101-"] .from {
+	background: linear-gradient(to right, rgba(0, 0, 0,.12), transparent);
+	padding: 7px;
+	border-radius: 15px;
+}
+
+#chat [data-cid^="33288706-"] .from {
+	background: linear-gradient(to right, rgba(0, 0, 0,.12), transparent);
+	padding: 7px;
+	border-radius: 15px;
+}
+
+#user-lists .list .user.id-3409101 .name:after,
+#chat [data-cid^='3409101-'] .un:after,
+#user-lists .list .user.id-3409101 .name:after,
+#chat [data-cid^='3409101-'] .un:after,
+#user-lists .list .user.id-3409101 .name:after,
+#chat [data-cid^='3409101-'] .un:after {
+    content: 'MESTRE DA SALA';
+    display: inline-block;
+    margin: 0 0 0 5px; 
+	padding: 0 3px;
+    color: #ccff66;
+    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
+    border-radius: 4px;
+    font-size: 10px;
+}
+#user-lists .list .user.id-3409101:hover .name:after,
+#chat [data-cid^='3409101-'] .un:hover:after,
+#user-lists .list .user.id-3409101:hover .name:after,
+#chat [data-cid^='3409101-'] .un:hover:after,
+#user-lists .list .user.id-3409101:hover .name:after,
+#chat [data-cid^='3409101-'] .un:hover:after {
+    background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
+}
+
+#user-lists .list .user.id-21755082 .name:after,
+#chat [data-cid^='21755082-'] .un:after,
+#user-lists .list .user.id-20574971 .name:after,
+#chat [data-cid^='21755082-'] .un:after,
+#user-lists .list .user.id-21755082 .name:after,
+#chat [data-cid^='21755082-'] .un:after {
+    content: 'QUEEN DA SALA';
+    display: inline-block;
+    margin: 0 0 0 5px; 
+	padding: 0 3px;
+    color: #ffcc00;
+    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+#user-lists .list .user.id-21755082:hover .name:after,
+#chat [data-cid^='21755082-'] .un:hover:after,
+#user-lists .list .user.id-21755082:hover .name:after,
+#chat [data-cid^='21755082-'] .un:hover:after,
+#user-lists .list .user.id-21755082:hover .name:after,
+#chat [data-cid^='21755082-'] .un:hover:after {
+    background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
+}
+
+#user-lists .list .user.id-33288706 .name:after,
+#chat [data-cid^='33288706-'] .un:after,
+#user-lists .list .user.id-33288706 .name:after,
+#chat [data-cid^='33288706-'] .un:after,
+#user-lists .list .user.id-33288706 .name:after,
+#chat [data-cid^='33288706-'] .un:after {
+    content: 'SWAT DA SALA';
+    display: inline-block;
+    margin: 0 0 0 5px; 
+	padding: 0 3px;
+    color: #ff9999;
+    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
+    border-radius: 4px;
+    font-size: 10px;
+#user-rollover.id-33288706 .meta{
+height: 146px !important;
+
+}
+
+#user-lists .list .user.id-33288706:hover .name:after,
+#chat [data-cid^='233288706-'] .un:hover:after,
+#user-lists .list .user.id-33288706:hover .name:after,
+#chat [data-cid^='33288706-'] .un:hover:after,
+#user-lists .list .user.id-33288706:hover .name:after,
+#chat [data-cid^='33288706-'] .un:hover:after {
+    background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
+}
+#user-rollover.id-21755082 .meta:before{
+    content: 'CSS';
+    top: 120px;
+    left: 109px;
+    position: absolute;
+	display: inline-block; 
+	padding: 0 3px;
+    color: #009A80;
+    background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
+    border-radius: 4px;
+    font-size: 10px;
+}
+#user-rollover.id-21755082 .meta:after{
+    content: 'Theme dev';
+    color: #808691;
+    position: absolute;
+    top: 117px;
+    left: 134px;
+}
